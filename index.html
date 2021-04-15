@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiking</title>
+    <!--        Favicon        -->
+    <link rel="shortcut icon" href="recources/img/favicon.png" type="image/x-icon">
+
+
+    <!-- jQuery plugin CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.19/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!---       css files goes here        -->
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+    <link rel="stylesheet" href="recources/css/main.css">
+    <link rel="stylesheet" href="recources/css/query.css">
+</head>
+
+<body>
+
+    <!---     starts  Header       -->
+
+    <header id="hero">
+
+        <div class="nav-sec">
+            <nav class="navbar navbar-expand-lg navbar-light nav-s" style="z-index: 980;" data-uk-sticky="top: 200; bottom: #animation">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="recources/img/logo.png" alt="Hiking" class="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active mx-2" aria-current="page" data-uk-scroll href="#hero">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" data-uk-scroll href="#offer">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" data-uk-scroll href="#about">Our Story</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-2" data-uk-scroll href="#contact">Contact Us</a>
+                            </li>
+
+
+                        </ul>
+                        <form class="d-flex border ">
+                            <input class="form-control me-2 border-0" type="search" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+                            <sapn id="basic-addon1"><button class="btn btn-outline-success border-0" type="submit">
+                                    <ion-icon name="search-outline"></ion-icon>
+                                </button></sapn>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                        <stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop>
+                        <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
+                    </linearGradient>
+                </defs>
+                <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                    d="M0,80L160,30L320,60L480,30L640,90L800,60L960,20L1120,70L1280,50L1440,60L1600,50L1760,0L1920,30L2080,20L2240,50L2400,10L2560,40L2720,60L2880,70L3040,80L3200,70L3360,50L3520,90L3680,90L3840,20L3840,100L3680,100L3520,100L3360,100L3200,100L3040,100L2880,100L2720,100L2560,100L2400,100L2240,100L2080,100L1920,100L1760,100L1600,100L1440,100L1280,100L1120,100L960,100L800,100L640,100L480,100L320,100L160,100L0,100Z">
+                </path>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="hero-box">
+                <div class="roW">
+                    <div class="col-lg-5">
+                        <h1 class="text-capitalize display-1 wow tada">It's Time for hiking</h1>
+                        <h5 class="mb-5">Lorem ipsum dolor sit.</h5>
+                        <a type="button" href="#" class="rd-mr rounded-pill p-0 px-3 mb-3 btn btn-outline-dark ">Read
+                            more</a>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do iusmod tempor incididunt ut labore et dolore magna.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <svg class="position-absolute bottom-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,160L48,256L96,192L144,256L192,224L240,128L288,160L336,192L384,224L432,256L480,256L528,256L576,192L624,320L672,224L720,192L768,96L816,224L864,64L912,160L960,160L1008,224L1056,160L1104,160L1152,64L1200,128L1248,192L1296,128L1344,256L1392,128L1440,192L1440,320L1392,320L1344,320L1296,320L1248,320L1200,320L1152,320L1104,320L1056,320L1008,320L960,320L912,320L864,320L816,320L768,320L720,320L672,320L624,320L576,320L528,320L480,320L432,320L384,320L336,320L288,320L240,320L192,320L144,320L96,320L48,320L0,320Z">
+            </path>
+        </svg>
+    </header>
+    <!---     end  Header       -->
+
+
+    <!---     strts  menu       -->
+    <section id="menu">
+        <div class="container">
+            <div class="section-header text-center align-items-center justify-content-center">
+                <h3>Lets's go</h3>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ipsum totam eligendi quia adipisci, aspernatur.
+                </h4>
+            </div>
+            <div class="row mb-5">
+                <div class="col-sm-4 p-4 uk-animation-toggle" tabindex="0" data-uk-scrollspy="cls: uk-animation-shake; repeat: true">
+                    <div class="card uk-animation-fade">
+                        <div class="card-img"><img class=" w-100" src="recources/img/card-1.png" alt="view"></div>
+                        <div class="card-body crd-b">
+                            <h4 class="my-4">lorem Ipsum</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, nostrum?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 p-4 uk-animation-toggle" tabindex="0" data-uk-scrollspy="cls: uk-animation-shake; repeat: true">
+                    <div class="card uk-animation-fade">
+                        <div class="card-img"><img class=" w-100" src="recources/img/card-2.png" alt="view"></div>
+                        <div class="card-body crd-b">
+                            <h4 class="my-4">lorem Ipsum</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, nostrum?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 p-4 uk-animation-toggle" tabindex="0" data-uk-scrollspy="cls: uk-animation-shake; repeat: true">
+                    <div class="card uk-animation-fade">
+                        <div class="card-img"><img class=" w-100" src="recources/img/card-3.png" alt="view"></div>
+                        <div class="card-body crd-b">
+                            <h4 class="my-4">lorem Ipsum</h4>
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, nostrum?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn btn-outline-dark rounded-pill rd-mr">Show more</a>
+            </div>
+
+
+        </div>
+    </section>
+    <!---     end  menu       -->
+
+
+    <!---     start  Offer       -->
+    <section id="offer">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-6  p-0">
+                    <img src="recources/img/offer-1.png" alt="" class="img-fluid w-100">
+                </div>
+                <div class="col-lg-6 offer-grid-1 mh-100 mw-100 ">
+                    <div class=" my-auto py-5">
+                        <h2 class="w-75 mx-auto mb-5">Discount up to 50% All Excursions</h2>
+                        <h4 class="w-75 mx-auto mb-md-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</h4>
+
+                        <a href="#" class="btn rounded-pill rd-mr">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 offer-grid-2 ">
+                    <div class=" py-5">
+                        <h2 class="w-75 mx-auto mb-5">January’s Promo: Buy 1 Get 1 Free!</h2>
+                        <h4 class="w-75 mx-auto mb-md-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</h4>
+
+
+                        <a href="#" class="btn rounded-pill rd-mr">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6  p-0">
+                    <img src="recources/img/offer-2.png" alt="offer" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---     end  Offer       -->
+
+
+
+    <!---     start  abt       -->
+
+    <div id="abt">
+
+
+        <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,80L10,81.7C20,83,40,87,60,78.3C80,70,100,50,120,38.3C140,27,160,23,180,31.7C200,40,220,60,240,65C260,70,280,60,300,48.3C320,37,340,23,360,28.3C380,33,400,57,420,65C440,73,460,67,480,58.3C500,50,520,40,540,45C560,50,580,70,600,73.3C620,77,640,63,660,51.7C680,40,700,30,720,36.7C740,43,760,67,780,71.7C800,77,820,63,840,63.3C860,63,880,77,900,78.3C920,80,940,70,960,58.3C980,47,1000,33,1020,28.3C1040,23,1060,27,1080,23.3C1100,20,1120,10,1140,15C1160,20,1180,40,1200,43.3C1220,47,1240,33,1260,35C1280,37,1300,53,1320,53.3C1340,53,1360,37,1380,35C1400,33,1420,47,1430,53.3L1440,60L1440,100L1430,100C1420,100,1400,100,1380,100C1360,100,1340,100,1320,100C1300,100,1280,100,1260,100C1240,100,1220,100,1200,100C1180,100,1160,100,1140,100C1120,100,1100,100,1080,100C1060,100,1040,100,1020,100C1000,100,980,100,960,100C940,100,920,100,900,100C880,100,860,100,840,100C820,100,800,100,780,100C760,100,740,100,720,100C700,100,680,100,660,100C640,100,620,100,600,100C580,100,560,100,540,100C520,100,500,100,480,100C460,100,440,100,420,100C400,100,380,100,360,100C340,100,320,100,300,100C280,100,260,100,240,100C220,100,200,100,180,100C160,100,140,100,120,100C100,100,80,100,60,100C40,100,20,100,10,100L0,100Z">
+            </path>
+        </svg>
+        <div class="container">
+            <div class="abt-content text-center">
+                <h2 class="display-3 fw-bold">Hiking the mountains</h2>
+                <br>
+                <h4 class="h2 w-75 mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla eligendi fuga officiis a alias sunt dolorum facere illum, inventore dolores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, repellat?</h4>
+            </div>
+        </div>
+        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,40L160,90L320,30L480,50L640,20L800,80L960,20L1120,60L1280,60L1440,20L1600,40L1760,70L1920,80L2080,60L2240,0L2400,80L2560,80L2720,60L2880,30L3040,0L3200,60L3360,80L3520,70L3680,20L3840,10L3840,100L3680,100L3520,100L3360,100L3200,100L3040,100L2880,100L2720,100L2560,100L2400,100L2240,100L2080,100L1920,100L1760,100L1600,100L1440,100L1280,100L1120,100L960,100L800,100L640,100L480,100L320,100L160,100L0,100Z">
+            </path>
+        </svg>
+    </div>
+
+
+
+
+
+    <!---     end  abt       -->
+
+    <!---     Start  about       -->
+
+    <section id="about">
+
+        <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,80L160,30L320,60L480,30L640,90L800,60L960,20L1120,70L1280,50L1440,60L1600,50L1760,0L1920,30L2080,20L2240,50L2400,10L2560,40L2720,60L2880,70L3040,80L3200,70L3360,50L3520,90L3680,90L3840,20L3840,100L3680,100L3520,100L3360,100L3200,100L3040,100L2880,100L2720,100L2560,100L2400,100L2240,100L2080,100L1920,100L1760,100L1600,100L1440,100L1280,100L1120,100L960,100L800,100L640,100L480,100L320,100L160,100L0,100Z">
+            </path>
+        </svg>
+        <div class="container">
+            <div class="about-cont text-end uk-animation-toggle" tabindex="0">
+                <h2 class="display-1 fst-italic fw-bold uk-animation-slide-left">
+                    <span class="orge"> Explore </span><br>
+                    <span style="color:#54524f;">The world</span>
+                </h2>
+            </div>
+        </div>
+
+        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,80L160,30L320,60L480,30L640,90L800,60L960,20L1120,70L1280,50L1440,60L1600,50L1760,0L1920,30L2080,20L2240,50L2400,10L2560,40L2720,60L2880,70L3040,80L3200,70L3360,50L3520,90L3680,90L3840,20L3840,100L3680,100L3520,100L3360,100L3200,100L3040,100L2880,100L2720,100L2560,100L2400,100L2240,100L2080,100L1920,100L1760,100L1600,100L1440,100L1280,100L1120,100L960,100L800,100L640,100L480,100L320,100L160,100L0,100Z">
+            </path>
+        </svg>
+
+    </section>
+    <!---     end  about       -->
+
+
+    <!---     Start  testimonial       -->
+    <section id="testi">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 my-4">
+                    <h2 class="orge display-5 fw-bold">
+                        Lorem ipsum
+                    </h2>
+                    <br>
+                    <span>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis fugiat quos dignissimos,
+                        voluptatibus perferendis reiciendis
+                    </span>
+                </div>
+                <div class="col-lg-4 my-4">
+                    <h2 class="orge display-5 fw-bold">
+                        Lorem ipsum
+                    </h2>
+                    <br>
+                    <span>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis fugiat quos dignissimos,
+                        voluptatibus perferendis reiciendis
+                    </span>
+                </div>
+                <div class="col-lg-4 my-4">
+                    <h2 class="orge display-5 fw-bold">
+                        Lorem ipsum
+                    </h2>
+                    <br>
+                    <span>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis fugiat quos dignissimos,
+                        voluptatibus perferendis reiciendis
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---     end  testimonial       -->
+
+    <!---     start  testimonial-2       -->
+    <section id="testi-2">
+        <div class="container">
+            <div class="jutify-content-center text-center">
+                <img src="recources/img/quote.png" alt="quote" class="img-fluid">
+                <br>
+                <br>
+                <br>
+                <p class="mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus corporis, quibusdam eaque ratione aperiam necessitatibus.</p>
+                <br>
+                <h6>lorem</h6>
+            </div>
+        </div>
+    </section>
+
+    <!---     end  testimonial-2       -->
+
+    <!---     start  Contact       -->
+    <section id="contact">
+
+
+        <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,50L160,30L320,90L480,0L640,70L800,90L960,40L1120,50L1280,80L1440,90L1600,60L1760,70L1920,40L2080,70L2240,60L2400,10L2560,30L2720,60L2880,50L3040,50L3200,80L3360,40L3520,40L3680,90L3840,60L3840,100L3680,100L3520,100L3360,100L3200,100L3040,100L2880,100L2720,100L2560,100L2400,100L2240,100L2080,100L1920,100L1760,100L1600,100L1440,100L1280,100L1120,100L960,100L800,100L640,100L480,100L320,100L160,100L0,100Z">
+            </path>
+        </svg>
+
+
+        <div class="container">
+            <div class="section-header text-center">
+                <h3 class="text-light">Contact Us</h3>
+                <br><br><br>
+                <h2 class="h1 mx-auto w-75">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, ullam. Lorem ipsum dolor sit amet, consectetur adipisicing.
+                </h2>
+
+                <br><br><br>
+
+                <div class="input-group mb-3 w-75 mx-auto">
+                    <input type="emeail" class="form-control " placeholder="Your-email" aria-label="Your-email" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Subscrbe</button>
+                </div>
+            </div>
+        </div>
+
+
+        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,50L160,30L320,90L480,0L640,70L800,90L960,40L1120,50L1280,80L1440,90L1600,60L1760,70L1920,40L2080,70L2240,60L2400,10L2560,30L2720,60L2880,50L3040,50L3200,80L3360,40L3520,40L3680,90L3840,60L3840,100L3680,100L3520,100L3360,100L3200,100L3040,100L2880,100L2720,100L2560,100L2400,100L2240,100L2080,100L1920,100L1760,100L1600,100L1440,100L1280,100L1120,100L960,100L800,100L640,100L480,100L320,100L160,100L0,100Z">
+            </path>
+        </svg>
+    </section>
+
+    <!---     end  Contact       -->
+
+    <!---     Start  Footer       -->
+    <footer id="footer">
+
+        <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,10L160,80L320,40L480,50L640,40L800,70L960,20L1120,0L1280,40L1440,20L1600,20L1760,80L1920,80L2080,90L2240,70L2400,0L2560,20L2720,50L2880,90L3040,70L3200,80L3360,40L3520,10L3680,20L3840,0L3840,100L3680,100L3520,100L3360,100L3200,100L3040,100L2880,100L2720,100L2560,100L2400,100L2240,100L2080,100L1920,100L1760,100L1600,100L1440,100L1280,100L1120,100L960,100L800,100L640,100L480,100L320,100L160,100L0,100Z">
+            </path>
+        </svg>
+
+
+
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2 class="display-6 fw-bold">
+                        Contact
+                    </h2>
+                    <br><br><br>
+                    <p class="h2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, placeat tempora blanditiis ullam excepturi nemo eligendi, inventore, magni sed ad minima aliquam nisi consectetur, saepe!</p>
+                    <br><br>
+                    <ul class="list-inline ">
+                        <li class="list-inline-item my-3 px-3
+py-2 rounded-pill bg-light ">
+                            <a href="#" class="h1 text-dark">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                        <li class="list-inline-item my-3 px-3
+py-2 rounded-pill bg-light  ">
+                            <a href="#" class=" h1  text-dark">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                        <li class="list-inline-item my-3 px-3
+py-2 rounded-pill bg-light ">
+                            <a href="#" class=" h1 text-dark">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+                        <li class="list-inline-item my-3 px-3
+py-2 rounded-pill bg-light  ">
+                            <a href="#" class="h1 text-dark">
+                                <ion-icon name="logo-whatsapp"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h2 class="display-6 fw-bold">
+                        About
+                    </h2>
+                    <br><br>
+                    <p class="h2">close</p>
+                    <p class="h2">close</p>
+                    <p class="h2">close</p>
+                    <p class="h2">close</p>
+                    <p class="h2">close</p>
+
+
+
+                </div>
+                <div class="col-sm-2">
+                    <h2 class="display-6 fw-bold">
+                        About
+                    </h2>
+                    <br><br>
+                    <p class="h2">close</p>
+                    <p class="h2">close</p>
+                    <p class="h2">close</p>
+                    <p class="h2">close</p>
+                    <p class="h2">close</p>
+
+
+
+                </div>
+                <div class="col-sm-2">
+                    <h2 class="display-6 fw-bold">
+                        About
+                    </h2>
+                    <br><br>
+                    <p class="h2">close</p>
+                    <p class="h2">close</p>
+                    <p class="h2">close</p>
+                    <p class="h2">close</p>
+                    <p class="h2">close</p>
+
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!---     end  Footer       -->
+
+
+    <!--                 Ioc icon goes here         -->
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    <!--                 jquery goes here         -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="vendors/js/modernizr-3.11.2.min.js"></script>
+    <!--                 jquery plugin goes here         -->
+
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.19/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.19/dist/js/uikit-icons.min.js"></script>
+    <script src="vendors/js/wow.min.js"></script>
+
+    <!--                 js files goes here         -->
+
+
+    <script src="vendors/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+
+</html>

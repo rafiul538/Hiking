@@ -1,0 +1,298 @@
+/*=========================================================
+
+
+
+                Tapmplate name    :   Hiking .
+                Tamplate vershion :   1.0 .
+                Tamplate URL      :   # .
+                Author            :   Rafiul Alam .
+                Author URl        :   https://wevstroop.com 
+                Desciption        :   A web for hikeing seeker 
+                                
+
+
+
+
+*============================================================/
+
+/*===========================================================
+                             Index of CSS
+        =======================================================*
+
+                    1. Google fonts
+                    2. Commong CSS
+                    3. Reusable CSS
+                    4. Hero
+
+
+
+*===========================================================*/
+
+
+/*===========================================================
+                        Google Fonts
+*===========================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
+
+
+/*===========================================================
+                        Common CSS
+*===========================================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    font-size:62.5%;
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+    line-height: 1.5;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+p{
+    font-size:1.6rem;
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+#footer, footer{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+/*===========================================================
+                        Reusable Component
+*===========================================================*/
+
+.rd-mr{
+    font-size:2.4rem;
+    font-weight: 700;
+    padding: .5rem 3rem;
+    
+}
+section,
+.section
+{
+    padding:90px 0;
+}
+
+/*========================================================
+                        hero
+========================================================*/
+#hero{
+    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/2nd-bg.png) no-repeat center/ cover;
+    height:100vh;
+
+}
+.nav-s{
+    background-color: #fff;
+}
+nav ul li a,
+nav ion-icon{
+    font-size:2rem !important;
+    border:.1rem solid #7f7770 !important;
+}
+nav ul li a{
+    background-color: #7f7770;
+    color:#fff !important;
+}
+nav ul li a:hover{
+    color:#000 !important;
+    border:.1rem solid #7f7770;
+    background-color: transparent;
+    text-decoration: none;
+}
+nav form{
+    outline:.1rem solid #e2a355;
+}
+
+
+
+nav input[placeholder],
+nav input{
+    font-size:1.6rem;
+    border:0;
+}
+.logo{
+    height:5rem;
+}
+
+#hero h1{
+    color:#deb37e;
+    font-weight:800;
+    font-size:7rem;
+}
+#hero h5{
+    font-style: italic;
+    font-size:2rem;
+    color:#000;
+    font-weight:600
+}
+
+#hero p{
+    color:#000;
+    font-style:italic;
+    width: 80%;
+}
+/*========================================================
+                        nav
+========================================================*/
+.uk-sticky-fixed{
+    top:0 !important;
+    background-color: #e2a355 ; 
+    padding: 2rem 0;
+}
+
+
+/*========================================================
+                        menu
+========================================================*/
+#menu{
+    background: url(../img/bg2.png) no-repeat left /contain;
+}
+
+
+.crd-b{
+    background-color: #7f7770;
+}
+.section-header h3{
+    font-size:5rem;
+    color:#deb37e;
+    font-weight: 800;
+    text-transform: capitalize;
+
+}
+.section-header h4{
+    font-size:1.8rem;
+    color:#000;
+    margin: 3rem; 
+    font-style: italic;
+}
+.card-body h4{
+    font-size:1.8rem;
+    color:#fff;
+    font-weight:700;
+}
+
+/*========================================================
+                        Offer
+========================================================*/
+.offer-grid-1{
+    background-color: #7f7770;
+
+}
+
+.offer-grid-2{
+    background-color: #deb37e;
+}
+#offer a{
+    background-color: #e2a355;
+}
+#offer a:hover{
+    background-color:transparent;
+    border:3px solid #e2a355;
+}
+#offer h2{
+    font-size:4rem;
+}
+
+/*========================================================
+                        abt
+========================================================*/
+#abt{
+    background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/bg3.png) no-repeat left/ contain;
+}
+.abt-content{
+    padding:9rem 0;
+}
+.abt h2{
+    font-size:
+}
+
+
+/*========================================================
+                        about
+========================================================*/
+#about{
+    background: url(../img/hiking.png) no-repeat center / cover;
+    padding: 0;
+}
+.about-cont{
+        padding:15rem 0;
+}
+.orge{
+    color:#e2a355;
+}
+/*========================================================
+                        about
+========================================================*/
+#testi span{
+    color:#54524f;
+    font-size:1.8rem;
+}
+
+/*========================================================
+                        Testimonial-2
+========================================================*/
+#testi-2{
+    background: url(../img/bg3.png) no-repeat right / contain;
+}
+
+#testi-2 p{
+    font-size:2rem;
+    color:#000;
+    width:70%;
+}
+#testi-2 h6{
+    color:#54524f;
+    font-size:1.8rem;
+    font-weight:600;
+}
+/*========================================================
+                        Contact
+========================================================*/
+#contact{
+    padding:0;
+    background-color:#e2a455; 
+}
+
+#contact .section-header{
+    padding:9rem 0;
+}
+#contact .section-header .input-group input,
+#contact .section-header .input-group button{
+    font-size:2rem;
+}
+
+
+/*========================================================
+                        Footer
+========================================================*/
+footer{
+    background-color:#7f7770; 
+    
+}
+footer .row{
+    padding: 9rem 0;
+}
+
+
+
+
+
+
+
+
+
+.uk-animation-fade{
+    animation-duration: 2s !important;
+}
